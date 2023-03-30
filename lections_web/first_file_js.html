@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Первый документ с JavaScript</title>
+</head>
+
+<body>
+
+<p>Это обычный HTML документ</p>
+    
+<p>поиграем с числами и функциями</p>
+
+    <script language="JavaScript">
+
+        let p = prompt('Введите свое имя');
+        alert ( `Привет, ${p}!`);
+
+        let number = parseInt(prompt('Введите число'));
+        alert ( `${number} + 5 = ${number + 5}`);
+
+    alert ("теперь с помощью функции")
+
+        let a = parseInt(prompt('Введите первое число'));
+        let b = parseInt(prompt('Введите второе число'));
+
+        function sum(a,b) {
+            return a+b;
+        }
+        alert (`сумма  ${a} и ${b} = ${sum(a,b)}`);
+
+    </script>
+
+<p>Выходим обратно в HTML</p>
+<p>спасибо за игру</p>
+
+
+</body>
+
+</html>
